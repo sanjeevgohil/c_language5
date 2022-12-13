@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,s,e;
+	clrscr();
+	printf("\n Enter starting number:");
+	scanf("%d",&s);
+	printf("\n Enter ending number:");
+	scanf("%d",&e);
+
+	i=1;
+	do
+	{
+		printf("\n Number is:%d",i);
+		i=i+1;
+	}while(i<=e);
+	getch();
+}
